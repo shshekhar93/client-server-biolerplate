@@ -4,6 +4,9 @@
   "description": "Boilerplate code to bootstrap a express + reactJS application",
   "main": "index.js",
   "scripts": {
+    "server": "cd server && node .",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
