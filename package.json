@@ -1,0 +1,31 @@
+{
+  "name": "client-server-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate code to bootstrap a express + reactJS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shshekhar93/client-server-biolerplate.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ReactJS",
+    "Boilerplate",
+    "client-server"
+  ],
+  "author": "Shashi Shekhar <shshekhar93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shshekhar93/client-server-biolerplate/issues"
+  },
+  "homepage": "https://github.com/shshekhar93/client-server-biolerplate#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "eslint": "^7.31.0",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2"
+  }
+}
